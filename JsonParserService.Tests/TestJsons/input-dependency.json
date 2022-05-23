@@ -1,0 +1,92 @@
+  {
+	"description": { //DependencyObject
+		"name": "usfda-application-type", //Name
+		"description": "This file is a USFDA eCTD v4.0.",
+		"oid": "2.16.840.1.113883.3.989.5.1.2.2.1.1.2", //OId
+		"canonicalUri": "",
+		"version": "2", //Version
+		"agency": {
+			"name": "US Food and Drug Administration",
+			"shortName": "USFDA"
+		}
+	},
+	"default-language-code": "eng", //DefaultLanguageCode
+	"vocabulary-type": "dependency", //VocabularyType
+	"values": { //Values
+		"2.16.840.1.113883.3.989.5.1.2.2.1.1.2": { //DependencyValue.OId
+			"us_application_type_1": { //ApplicationType.Name
+				"description": {
+					"eng": { //LanguageCode
+						"value": "New Drug Application (NDA)", //Value
+						"name": "usfda-application-type"
+					}
+				},
+				"dependsOf": {
+					"2.16.840.1.113883.3.989.5.1.2.2.1.13.1": [ //DependsOf.OId
+						"original",
+						"efficacySupplement"
+					]
+				}
+			},
+			"us_application_type_2": {
+				"description": {
+					"eng": {
+						"value": "Abbreviated New Drug Application (ANDA)"
+					}
+				},
+				"dependsOf": {
+					"2.16.840.1.113883.3.989.5.1.2.2.1.13.2": [
+						"original"
+					]
+				}
+			}
+		},
+		"2.16.840.1.113883.3.989.5.1.2.2.1.1.3": {
+			"us_application_type_1": {
+				"description": {
+					"eng": {
+						"value": "New Drug Application (NDA)"
+					}
+				},
+				"dependsOf": {}
+			}
+		},
+		"2.16.840.1.113883.3.989.5.1.2.2.1.13.1": {
+			"original": { //Value.Descriptions(Key)
+				"description": { //Value.Descriptions(Value)
+					"eng": { //LanguageCode
+						"value": "Original Application",//Value
+						"name": "usfda-application-type"
+					}
+				},
+				"dependsOn": {
+					"list_id": "2.16.840.1.113883.3.989.5.1.2.2.1.1.2",
+					"possible_values": [
+						"us_application_type_1",
+						"us_application_type_2",
+						"us_application_type_3",
+						"us_application_type_4",
+						"us_application_type_5",
+						"us_application_type_6"
+					]
+				}
+			},
+			"efficacySupplement": {
+				"description": {
+					"eng": {
+						"value": "Efficacy Supplement"
+					}
+				}
+			}
+		},
+		"2.16.840.1.113883.3.989.5.1.2.2.1.13.2": {
+			"original": {
+				"description": {
+					"eng": {
+						"value": "Original Application"
+					}
+				}
+			}
+		}
+	}
+}
