@@ -1,0 +1,50 @@
+{
+	"description": {
+		"name": "us-promotional-document-type", 
+		"description": "This file is a USFDA eCTD v4.0 maintained code list.",
+		"oid": "2.16.840.1.113883.3.989.5.1.2.2.1.6.1",
+		"canonicalUri": "",
+		"version": "1",
+		"agency": {
+			"name": "US Food and Drug Administration",
+			"shortName": "USFDA"
+		}
+	},
+	"default-language-code": "eng",
+	"vocabulary-type": "value",
+	"values": {
+		"2.16.840.1.113883.3.989.5.1.2.2.1.6.1": {
+			"us_promo_document_type_1": {
+				"description": {
+					"eng": {
+						"value": "Promotional 2253",
+						"name": "us-promotional-document-type"
+					}
+				},
+				"definition": {
+					"eng": {
+						"value": "Form and materials required.",
+						"name": "us-promotional-document-type"
+					}
+				}
+			},
+			"us_promo_document_type_2": {
+				"description": {
+					"eng": {
+						"value": "Request For Advisory Launch",
+						"name": "us-promotional-document-type"
+					}
+				}
+			}
+		},
+		"2.16.840.1.113883.3.989.5.1.2.2.1.6.2": {
+			"us_promo_document_type_1": {
+				"description": {
+					"eng": {
+						"value": "Promotional 2253"
+					}
+				}
+			}
+		}
+	}
+}

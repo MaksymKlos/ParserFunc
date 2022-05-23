@@ -1,0 +1,45 @@
+﻿{ //StructureObject
+	"description": {
+		"name": "us-context-of-use", //Name
+		"description": "This file is a USFDA eCTD v4.0 maintained code list.  It is encoded using OASIS genericode.",
+		"oid": "2.16.840.1.113883.3.989.5.1.2.2.1.2.3", //OId
+		"canonicalUri": "",
+		"version": "3", //Version
+		"agency": {
+			"name": "US Food and Drug Administration",
+			"shortName": "USFDA"
+		}
+	},
+	"default-language-code": "eng", //DefaultLanguageCode
+	"vocabulary-type": "structure", //VocabularyType
+	"nodes": { //Nodes
+		"us_1.1": { //StructureNode
+			"description": { //Descriptions
+				"eng": { //LanguageCode
+					"value": "m1.1 forms", //Value
+					"name": "us-context-of-use"
+				},
+				"ua": {
+					"value": "m1.2 forms",
+					"name": "us-context-of-use"
+				}
+			},
+			"fields": {
+				"formType": {
+					"name": "US Form Type",
+					"required": "true",
+					"type": "string",
+					"link": "2.16.840.1.113883.3.989.5.1.2.2.1.5.3" //LinkOId
+				}
+			}
+		},
+		"us_1.2": {
+			"description": {
+				"eng": {
+					"value": "m1.2 cover letters"
+				}
+			},
+			"fields": {}
+		}
+	}
+}

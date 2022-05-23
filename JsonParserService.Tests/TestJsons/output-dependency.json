@@ -1,0 +1,74 @@
+{
+  "Name": "usfda-application-type",
+  "OId": "2.16.840.1.113883.3.989.5.1.2.2.1.1.2",
+  "Version": "2",
+  "DefaultLanguageCode": "eng",
+  "VocabularyType": "dependency",
+  "Values": [
+    {
+      "OId": "2.16.840.1.113883.3.989.5.1.2.2.1.1.2",
+      "ApplicationTypes": [
+        {
+          "Name": "us_application_type_1",
+          "Descriptions": [
+            {
+              "LanguageCode": "eng",
+              "Value": "New Drug Application (NDA)"
+            }
+          ],
+          "DependsOf": {
+            "OId": "2.16.840.1.113883.3.989.5.1.2.2.1.13.1",
+            "Descriptions": {
+              "original": [
+                {
+                  "LanguageCode": "eng",
+                  "Value": "Original Application"
+                }
+              ],
+              "efficacySupplement": [
+                {
+                  "LanguageCode": "eng",
+                  "Value": "Efficacy Supplement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Name": "us_application_type_2",
+          "Descriptions": [
+            {
+              "LanguageCode": "eng",
+              "Value": "Abbreviated New Drug Application (ANDA)"
+            }
+          ],
+          "DependsOf": {
+            "OId": "2.16.840.1.113883.3.989.5.1.2.2.1.13.2",
+            "Descriptions": {
+              "original": [
+                {
+                  "LanguageCode": "eng",
+                  "Value": "Original Application"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "OId": "2.16.840.1.113883.3.989.5.1.2.2.1.1.3",
+      "ApplicationTypes": [
+        {
+          "Name": "us_application_type_1",
+          "Descriptions": [
+            {
+              "LanguageCode": "eng",
+              "Value": "New Drug Application (NDA)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

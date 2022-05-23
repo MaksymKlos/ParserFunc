@@ -1,0 +1,37 @@
+{
+  "Name": "us-promotional-document-type",
+  "OId": "2.16.840.1.113883.3.989.5.1.2.2.1.6.1",
+  "Version": "1",
+  "DefaultLanguageCode": "eng",
+  "VocabularyType": "value",
+  "Values": [
+    {
+      "OId": "2.16.840.1.113883.3.989.5.1.2.2.1.6.1",
+      "Descriptions": {
+        "us_promo_document_type_1": [
+          {
+            "LanguageCode": "eng",
+            "Value": "Promotional 2253"
+          }
+        ],
+        "us_promo_document_type_2": [
+          {
+            "LanguageCode": "eng",
+            "Value": "Request For Advisory Launch"
+          }
+        ]
+      }
+    },
+    {
+      "OId": "2.16.840.1.113883.3.989.5.1.2.2.1.6.2",
+      "Descriptions": {
+        "us_promo_document_type_1": [
+          {
+            "LanguageCode": "eng",
+            "Value": "Promotional 2253"
+          }
+        ]
+      }
+    }
+  ]
+}

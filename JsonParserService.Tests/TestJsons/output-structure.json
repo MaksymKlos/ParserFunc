@@ -1,0 +1,32 @@
+{
+  "Name": "us-context-of-use",
+  "OId": "2.16.840.1.113883.3.989.5.1.2.2.1.2.3",
+  "Version": "3",
+  "DefaultLanguageCode": "eng",
+  "VocabularyType": "structure",
+  "Nodes": [
+    {
+      "NodeTitle": "us_1.1",
+      "LinkOId": "2.16.840.1.113883.3.989.5.1.2.2.1.5.3",
+      "Descriptions": [
+        {
+          "LanguageCode": "eng",
+          "Value": "m1.1 forms"
+        },
+        {
+          "LanguageCode": "ua",
+          "Value": "m1.2 forms"
+        }
+      ]
+    },
+    {
+      "NodeTitle": "us_1.2",
+      "Descriptions": [
+        {
+          "LanguageCode": "eng",
+          "Value": "m1.2 cover letters"
+        }
+      ]
+    }
+  ]
+}
